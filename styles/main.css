@@ -69,7 +69,6 @@ email {
   height: auto;
   margin: 0 auto;
   padding: 10px;
-  margin-bottom: 100px;
 }
 .wrapper ._main-container {
   display: flex;
@@ -170,10 +169,16 @@ email {
 @media (max-width: 900px) {
   .wrapper ._main-container {
     display: block;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.062), rgba(0, 0, 0, 0.5)), url("../imgs/main.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: linear-gradient(rgba(255, 255, 255, 0.062), rgba(0, 0, 0, 0.5)), url("../imgs/main.png") no-repeat center center fixed;
     background-size: cover;
+    -webkit-background-repeat: no-repeat;
+    -moz-background-repeat: no-repeat;
+    -o-background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    -webkit-background-attachment: fixed;
+    -moz-background-attachment: fixed;
+    -o-background-attachment: fixed;
+    background-attachment: fixed;
   }
   .wrapper .img {
     display: none;
@@ -468,12 +473,12 @@ email {
 }
 @media (max-width: 500px) {
   .open {
-    height: 300px;
+    height: 250px;
   }
 }
 @media (max-width: 400px) {
   .open {
-    height: 250px;
+    height: 200px;
   }
 }
 
@@ -566,7 +571,7 @@ email {
 .footer-content-items-box li:first-child {
   margin-top: 30px;
 }
-.footer-content-items-box p, .footer-content-items-box a, .footer-content-items-box img {
+.footer-content-items-box p, .footer-content-items-box img {
   padding: 7px;
 }
 .footer-content-items-box p {

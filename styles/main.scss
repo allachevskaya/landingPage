@@ -81,7 +81,7 @@ email {
     height: auto;
     margin: 0 auto;
     padding: 10px;
-    margin-bottom: 100px;
+    // margin-bottom: 100px;
 
   }
 
@@ -211,19 +211,36 @@ email {
   .wrapper {
     ._main-container {
       display: block;
-      background-image: linear-gradient(rgba(255, 255, 255, 0.062), rgba(0, 0, 0, 0.5)), url('../imgs/main.png');
-      background-repeat: no-repeat;
-      background-attachment: fixed;
+      // background-image: linear-gradient(rgba(255, 255, 255, 0.062), rgba(0, 0, 0, 0.5)), url('../imgs/main.png');
+      // background-repeat: no-repeat;
+      // background-attachment: fixed;
+      // background-size: cover;
+
+      background: linear-gradient(rgba(255, 255, 255, 0.062), rgba(0, 0, 0, 0.5)), url('../imgs/main.png') no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
       background-size: cover;
+
+      -webkit-background-repeat:no-repeat;
+      -moz-background-repeat:no-repeat;
+      -o-background-repeat:no-repeat;
+      background-repeat: no-repeat; 
+
+      -webkit-background-attachment: fixed;
+      -moz-background-attachment: fixed;
+      -o-background-attachment: fixed;
+      background-attachment: fixed;
+
     }
 
     .img {
       display: none;
     }
 
-   
+
   }
-  
+
 
 
 
@@ -605,12 +622,13 @@ email {
   }
 
   @media (max-width:500px) {
-    height: 300px;
+    height: 250px;
 
   }
 
   @media (max-width:400px) {
-    height: 250px;
+    height: 200px;
+
 
   }
 
@@ -726,7 +744,7 @@ email {
         }
 
         & p,
-        & a,
+        // & a,
         & img {
           padding: 7px;
         }
