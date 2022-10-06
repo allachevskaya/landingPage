@@ -158,9 +158,6 @@ email {
   font-family: 'Varta';
   font-style: normal;
   margin-top: 120px;
-
-
-
   & p {
     width: 420px;
     height: 20px;
@@ -169,8 +166,6 @@ email {
     line-height: 20px;
     letter-spacing: 1px;
   }
-
-
   & h1 {
     width: 420px;
     height: 210px;
@@ -180,9 +175,7 @@ email {
     font-size: 50px;
     line-height: 70px;
     letter-spacing: -0.4px;
-
   }
-
   & h4 {
     width: 420px;
     height: 62px;
@@ -190,11 +183,7 @@ email {
     font-size: 22px;
     line-height: 31px;
     color: rgba(112, 100, 88, 0.9);
-
-
   }
-
-
 }
 
 .img {
@@ -211,18 +200,8 @@ email {
   .wrapper {
     ._main-container {
       display: block;
-      // background-image: linear-gradient(rgba(255, 255, 255, 0.062), rgba(0, 0, 0, 0.5)), url('../imgs/main.png');
-       background-repeat: no-repeat;
-      // background-attachment: fixed;
-      // background-size: cover;
-      background: url("../imgs/Picture.jpg") no-repeat fixed 0 0 / cover rgba(0, 0, 0, 0);
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      -o-background-size: cover;
-      -moz-background-size: cover;
-      -webkit-background-size: cover;
+      background-image: url('../imgs/Picture.jpg');
     }
-
     .img {
       display: none;
     }
@@ -247,13 +226,6 @@ email {
 
 }
 
-@media (max-width:500px) {
-  .wrapper {
-    ._main-container {
-      background-size: auto;
-    }}
-
-}
 
 
 /* Find your room */

@@ -169,13 +169,7 @@ email {
 @media (max-width: 900px) {
   .wrapper ._main-container {
     display: block;
-    background-repeat: no-repeat;
-    background: url("../imgs/Picture.jpg") no-repeat fixed 0 0/cover rgba(0, 0, 0, 0);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
+    background-image: url("../imgs/Picture.jpg");
   }
   .wrapper .img {
     display: none;
@@ -187,11 +181,6 @@ email {
   .content-main-text p, .content-main-text h1, .content-main-text h4 {
     color: #FFFFFF;
     width: 100%;
-  }
-}
-@media (max-width: 500px) {
-  .wrapper ._main-container {
-    background-size: auto;
   }
 }
 /* Find your room */
