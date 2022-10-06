@@ -214,7 +214,7 @@ email {
       background-image: linear-gradient(rgba(255, 255, 255, 0.062), rgba(0, 0, 0, 0.5)), url('../imgs/main.png');
       background-repeat: no-repeat;
       background-attachment: fixed;
-      // background-size: cover;
+      background-size: cover;
 
       // background: linear-gradient(rgba(255, 255, 255, 0.062), rgba(0, 0, 0, 0.5)), url('../imgs/main.png') no-repeat center center fixed;
       // -webkit-background-size: cover;
@@ -247,6 +247,16 @@ email {
 
 
   }
+
+  @media (max-width:600px) {
+    .wrapper {
+      ._main-container {
+        display: block;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.062), rgba(0, 0, 0, 0.5)), url('../imgs/main.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+      }}}
 
 
 

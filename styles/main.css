@@ -172,14 +172,27 @@ email {
     background-image: linear-gradient(rgba(255, 255, 255, 0.062), rgba(0, 0, 0, 0.5)), url("../imgs/main.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
   }
   .wrapper .img {
     display: none;
   }
+}
+@media (max-width: 900px) and (max-width: 600px) {
+  .wrapper ._main-container {
+    display: block;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.062), rgba(0, 0, 0, 0.5)), url("../imgs/main.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 900px) {
   .header-logo,
 .content-main-text {
     color: #FFFFFF;
   }
+}
+@media (max-width: 900px) {
   .content-main-text p, .content-main-text h1, .content-main-text h4 {
     color: #FFFFFF;
     width: 100%;
