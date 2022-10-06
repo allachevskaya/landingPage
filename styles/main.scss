@@ -191,10 +191,7 @@ email {
   width: 50%;
   background-repeat: no-repeat;
   background-image: url('../imgs/main.png');
-
 }
-
-
 
 @media (max-width:900px) {
   .wrapper {
@@ -229,7 +226,7 @@ email {
 
 }
 
-@media (max-width:500px) {
+@media (max-width:500px) { // так фиксится баг с айфоном
  .wrapper{
   ._main-container{
     background-size: auto;
