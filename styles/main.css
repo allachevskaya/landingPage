@@ -170,7 +170,7 @@ email {
   .wrapper ._main-container {
     display: block;
     background-repeat: no-repeat;
-    background: url("../imgs/Picture.jpg");
+    background: url("../imgs/Picture.jpg") no-repeat fixed 0 0/cover rgba(0, 0, 0, 0);
     background-repeat: no-repeat;
     background-attachment: fixed;
     -o-background-size: cover;
