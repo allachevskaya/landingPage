@@ -191,7 +191,7 @@ email {
 }
 @media (max-width: 500px) {
   .wrapper ._main-container {
-    background-color: red;
+    background-size: auto;
   }
 }
 /* Find your room */

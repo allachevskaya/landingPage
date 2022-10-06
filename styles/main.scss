@@ -248,9 +248,11 @@ email {
 }
 
 @media (max-width:500px) {
-  .wrapper ._main-container{
-    background-color: red;
-  }
+  .wrapper {
+    ._main-container {
+      background-size: auto;
+    }}
+
 }
 
 
