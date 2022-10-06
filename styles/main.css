@@ -170,12 +170,12 @@ email {
   .wrapper ._main-container {
     display: block;
     background: linear-gradient(rgba(255, 255, 255, 0.062), rgba(0, 0, 0, 0.5)), url("../imgs/main.png") no-repeat center center fixed;
-    background-size: cover;
     background-attachment: fixed;
     background-position: center center;
-    @media (max-width: @iphone-screen) {
-      background-attachment: scroll;
-  }
+    background-size: cover;
+    -webkit-background-size: cover; /* safari may need this */
+    height: 100vh; /* set viewport constraint */
+    min-height: 100%; /* enforce height */
   }
   .wrapper .img {
     display: none;
