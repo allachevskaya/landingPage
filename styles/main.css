@@ -170,6 +170,9 @@ email {
   .wrapper ._main-container {
     display: block;
     background-image: url("../imgs/Picture.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
   }
   .wrapper .img {
     display: none;
@@ -181,6 +184,12 @@ email {
   .content-main-text p, .content-main-text h1, .content-main-text h4 {
     color: #FFFFFF;
     width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .wrapper ._main-container {
+    background-size: auto;
+    background-position-x: center;
   }
 }
 /* Find your room */

@@ -201,6 +201,9 @@ email {
     ._main-container {
       display: block;
       background-image: url('../imgs/Picture.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
     }
     .img {
       display: none;
@@ -226,7 +229,14 @@ email {
 
 }
 
-
+@media (max-width:500px) {
+ .wrapper{
+  ._main-container{
+    background-size: auto;
+    background-position-x: center;
+  }
+ }  
+}
 
 /* Find your room */
 .page2 {
