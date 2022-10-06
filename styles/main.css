@@ -189,6 +189,11 @@ email {
     width: 100%;
   }
 }
+@media (max-width: 500px) {
+  .wrapper ._main-container {
+    background-color: red;
+  }
+}
 /* Find your room */
 .page2 {
   margin-bottom: 100px;

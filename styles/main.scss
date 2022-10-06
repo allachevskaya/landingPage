@@ -221,20 +221,14 @@ email {
       -o-background-size: cover;
       -moz-background-size: cover;
       -webkit-background-size: cover;
-      
-     
     }
 
     .img {
       display: none;
     }
-
-
   }
 
- 
 
-  // ENDadd
 
   .header-logo,
   .content-main-text {
@@ -251,6 +245,12 @@ email {
     }
   }
 
+}
+
+@media (max-width:500px) {
+  .wrapper ._main-container{
+    background-color: red;
+  }
 }
 
 
