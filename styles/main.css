@@ -169,9 +169,9 @@ email {
 @media (max-width: 900px) {
   .wrapper ._main-container {
     display: block;
-    background: linear-gradient(rgba(255, 255, 255, 0.062), rgba(0, 0, 0, 0.5)), url("../imgs/main.png") no-repeat center center fixed;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.062), rgba(0, 0, 0, 0.5)), url("../imgs/main.png");
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center center;
   }
   .wrapper .img {
     display: none;

@@ -211,12 +211,12 @@ email {
   .wrapper {
     ._main-container {
       display: block;
-      // background-image: linear-gradient(rgba(255, 255, 255, 0.062), rgba(0, 0, 0, 0.5)), url('../imgs/main.png');
-      // background-repeat: no-repeat;
-      // background-attachment: fixed;
+      background-image: linear-gradient(rgba(255, 255, 255, 0.062), rgba(0, 0, 0, 0.5)), url('../imgs/main.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
       // background-size: cover;
 
-      background: linear-gradient(rgba(255, 255, 255, 0.062), rgba(0, 0, 0, 0.5)), url('../imgs/main.png') no-repeat center center fixed;
+      // background: linear-gradient(rgba(255, 255, 255, 0.062), rgba(0, 0, 0, 0.5)), url('../imgs/main.png') no-repeat center center fixed;
       // -webkit-background-size: cover;
       // -moz-background-size: cover;
       // -o-background-size: cover;
@@ -234,9 +234,7 @@ email {
 
       
        
-        background-attachment: fixed;
-        background-position: center center;
-
+      
     
         
     
