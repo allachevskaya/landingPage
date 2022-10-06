@@ -232,6 +232,10 @@ email {
       -o-background-attachment: fixed;
       background-attachment: fixed;
 
+      @media only screen {
+        background-attachment: scroll;
+    }
+
     }
 
     .img {
